@@ -1,5 +1,5 @@
 // Service worker : le jeu fonctionne hors ligne une fois ouvert une première fois (moteur et page en cache).
-const BUILD = '372c760f3d12';
+const BUILD = 'e38026acb8ed';
 const CACHE = 'samarcande-' + BUILD;
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png',
   './vendor/stockfish-19-lite-single.js', './vendor/stockfish-19-lite-single.wasm'];

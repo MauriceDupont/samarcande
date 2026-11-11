@@ -15,16 +15,19 @@
   h1 { margin: 0 0 24px; font-weight: 500; font-size: 1.8rem; letter-spacing: .3em; text-transform: uppercase; padding-left: .3em; }
   a { display: block; margin: 0 0 12px; padding: 18px; border: 1px solid var(--hair); color: var(--ink); text-decoration: none; font: 400 .8rem "Jost", sans-serif; letter-spacing: .24em; text-transform: uppercase; transition: background .15s, color .15s; }
   a small { display: block; margin-top: 8px; font: italic 400 1rem "Cormorant Garamond", serif; letter-spacing: 0; text-transform: none; color: var(--mute); }
-  #e:hover { background: #f37021; border-color: #f37021; color: #fff; }
-  #t:hover { background: #2f6fd6; border-color: #2f6fd6; color: #fff; }
+  a:hover { background: var(--c); border-color: var(--c); color: #fff; }
+  a::before { content: ""; display: block; width: 26px; height: 2px; margin: 0 auto 12px; background: var(--c); transition: background .15s; }
+  a:hover::before { background: #fff; }
   a:hover small { color: inherit; }
 </style>
 </head>
 <body>
 <main>
   <h1>Jeux</h1>
-  <a id="e" href="echecs/">Échecs<small>Samarcande · professeur et moteur</small></a>
-  <a id="t" href="traversal/">Traversée<small>Stratégie 10×10 à relief</small></a>
+  <a style="--c:#f37021" href="echecs/">Échecs<small>Samarcande · professeur et moteur</small></a>
+  <a style="--c:#2f6fd6" href="traversal/">Traversée<small>Stratégie 10×10 à relief</small></a>
+  <a style="--c:#7b4bb7" href="yinsh/">Yinsh<small>Anneaux et marqueurs réversibles</small></a>
+  <a style="--c:#c8342b" href="shogi/">Shogi<small>Les échecs japonais, avec parachutages</small></a>
 </main>
 </body>
 </html>

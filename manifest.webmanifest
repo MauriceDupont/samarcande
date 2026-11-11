@@ -1,0 +1,17 @@
+{
+  "name": "Échecs Samarcande",
+  "short_name": "Samarcande",
+  "description": "Jeu d'échecs avec professeur et moteur Stockfish",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#6e2d26",
+  "theme_color": "#6e2d26",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
